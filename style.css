@@ -32,7 +32,7 @@ body {
     padding: 20px;
     /* border-bottom: 5px solid black; */
     height: auto;
-    flex: 2;
+    flex: 1;
 }
 
 .main-header h1 {
@@ -229,12 +229,11 @@ text-shadow: 0px 3px 3px rgba(112, 86, 86, 0.5);
     body {
         padding: 0 5vw;
         height: 100vh;
-
     }
 
     .main-header {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
   .main-section {
@@ -248,19 +247,19 @@ text-shadow: 0px 3px 3px rgba(112, 86, 86, 0.5);
   }
 
   .tile {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       
   }
 
   .mask {
-      width: 50px;
-      height: 50px;
+      width: 75px;
+      height: 75px;
   }
 
   .message-container {
-      width: 75px;
-      height: 75px;
+      width: 50px;
+      height: 50px;
       
   }
 
