@@ -29,7 +29,6 @@ function activateTile(color) {
 
     tile.classList.add('activated');
     sound.play();
-    console.log("hello");
     setTimeout(() => {
         tile.classList.remove('activated');
     }, 300);
