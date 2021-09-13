@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="main-heading">Simon Game</h1>
+    </header>
+    <hr>
+    <section class="main-section">
+        <div class="main-container unclickable">
+            <div class="tile tile-1" data-color="red" >
+                <div class="mask mask-1"></div>
+            </div>
+            
+            <div class="tile tile-2" data-color="green">
+                <div class="mask mask-2"></div>
+            </div>
+            
+            <div class="tile tile-3" data-color="blue">
+                <div class="mask mask-3"></div>
+            </div>
+            
+            <div class="tile tile-4" data-color="yellow">
+                <div class="mask mask-4"></div>
+            </div>
+            
+        </div>
+        <div class="message-container">
+            <button class="message-button">Start</button>
+            <span class="main-info hidden"></span>
+        </div>
+    </section>
+    <hr>
+    <footer class="main-footer">
+        
+        <div class="footer-content">
+            <p>Made with <span class="heart"> &#9829; </span> by <a href="https://github.com/shivang02" class="footer-link">Shivang Dubey</a></p>
+        </div>
+    </footer>
+
+    <div class="audio-files hidden">
+        <audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" data-sound="red"></audio>
+        <audio src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" data-sound="green"></audio>
+        <audio src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" data-sound="blue"></audio>
+        <audio src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" data-sound="yellow"></audio>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
