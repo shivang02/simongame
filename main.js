@@ -28,6 +28,7 @@ function activateTile(color) {
     const sound = document.querySelector(`[data-sound="${color}"]`);
 
     tile.classList.add('activated');
+    sound.currentTime = 0;
     sound.play();
     setTimeout(() => {
         tile.classList.remove('activated');
@@ -83,6 +84,7 @@ function clickTile(color) {
     let clickRemain = compSeq.length - playerSeq.length;
 
     const sound = document.querySelector(`[data-sound='${color}']`);
+    sound.currentTime = 0;
     sound.play();
 
     if (playerSeq[index] !== compSeq[index]) {
