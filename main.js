@@ -93,7 +93,7 @@ function clickTile(color) {
     }
 
     if (playerSeq.length === compSeq.length) {
-        if (playerSeq.length === 20) {
+        if (playerSeq.length === 2) {
             resetGame(' ~( ˘▾˘~) Congrats! You completed all the levels');
             return
         }
